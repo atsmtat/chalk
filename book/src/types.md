@@ -21,7 +21,7 @@ Chalk contains three levels of IR:
 ## Goal of the chalk-ir crate
 
 To have an ergonomic, flexible library that can abstractly represent
-Rust types and logical predicates. The library should be expose a
+Rust types and logical predicates. The library should expose a
 "minimal" set of types that is nonetheless able to capture the full
 range of Rust types. "Minimal" here means that some of the surface
 differences in Rust types -- e.g., the distinction between built-in
